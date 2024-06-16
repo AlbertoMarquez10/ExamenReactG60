@@ -12,7 +12,7 @@ const MiApi = ({ personajes, setPersonajes }) => {
   }
   useEffect(() => {
     consumoApi()
-  }, [])
+  })
 
   return (
     <>
